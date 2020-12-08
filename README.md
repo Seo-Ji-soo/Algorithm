@@ -1,1 +1,1 @@
-# codeUp
+# Algorithm
