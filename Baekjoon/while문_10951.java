@@ -1,6 +1,6 @@
+// 입력이 끝날 때까지 A+B를 출력. EOF에 대해 알아보기.
+
 import java.util.Scanner;
-
-
 
 public class Main {
 
