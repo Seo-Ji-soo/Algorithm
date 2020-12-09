@@ -1,3 +1,5 @@
+// 0이 들어올 때까지 A+B를 출력.
+
 import java.util.Scanner;
 
 public class Main {
