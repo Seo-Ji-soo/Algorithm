@@ -1,4 +1,4 @@
-//
+// 3052번 풀이방법2. (HashSet 클래스를 이용하여 값구하기)
 
 import java.util.HashSet;
 import java.util.Scanner;
