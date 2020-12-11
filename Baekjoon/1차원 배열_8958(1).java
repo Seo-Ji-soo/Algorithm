@@ -8,6 +8,8 @@
 OX퀴즈의 결과가 주어졌을 때, 점수를 구하는 프로그램을 작성하시오.
 */
 
+// 8958번 풀이방법1.
+
 import java.util.Scanner;
 
 public class Main {
