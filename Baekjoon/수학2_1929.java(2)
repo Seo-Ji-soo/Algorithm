@@ -1,0 +1,35 @@
+// 1929번 문제풀이 방법2.
+
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int m = sc.nextInt();
+		int n = sc.nextInt();
+		
+		int[]a = new int [n+1];  // 배열생성.
+
+		
+		for(int i=0; i<=n; i++) {
+			a[i] = 0; // 0이면 소수. 0이 아니면 소수가 아님. 우선 0으로 다 배치해줌.
+			a[1] = 1;	
+		}
+		
+		for(int i=2; i<=n; i++) {
+			for(int j=2; i*j<=n; j++) {
+				a[i*j]=1;
+			}
+		}
+		
+		for(int i=m; i<=n; i++) {
+			if(a[i]!=1) {
+				System.out.println(i);
+			}
+		}
+	}		
+}
+
